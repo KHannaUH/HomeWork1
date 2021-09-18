@@ -1,0 +1,10 @@
+print('Enter integer:')
+entered = int(input())
+print('You entered:', entered)
+print(entered, 'squared is', (entered**2))
+print('And', entered, 'cubed is', (entered**3), '!!')
+
+print('Enter another integer:')
+entered2 = int(input())
+print(entered, '+', entered2, 'is', (entered+entered2))
+print(entered, '*', entered2, 'is', (entered*entered2))
